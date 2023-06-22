@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel Reservation</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Hotel Reservation</h1>
+
+  <form action="submit_reservation.php" method="POST">
+    <label for="first-name">First Name:</label>
+    <input class="sty" type="text" id="first-name" name="first-name" required><br><br>
+
+    <label for="last-name">Last Name:</label>
+    <input class="sty" type="text" id="last-name" name="last-name" required><br><br>
+
+    <label for="phone">Phone:</label>
+    <input class="sty" type="tel" id="phone" name="phone" required><br><br>
+
+    <label for="email">Email:</label>
+    <input class="sty" type="email" id="email" name="email" required><br><br>
+
+    <label for="arrival-date">Arrival Date:</label>
+    <input class="sty" type="date" id="arrival-date" name="arrival-date" required><br><br>
+
+    <label for="departure-date">Departure Date:</label>
+    <input class="sty" type="date" id="departure-date" name="departure-date" required><br><br>
+
+    <label for="num-adults">Number of Adults:</label>
+    <input class="sty" type="number" id="num-adults" name="num-adults" min="1" required><br><br>
+
+    <label for="num-children">Number of Children:</label>
+    <input class="sty" type="number" id="num-children" name="num-children" min="0" required><br><br>
+
+    <input class="styl" type="submit" value="Submit">
+  </form>
+</body>
+</html>
